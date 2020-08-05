@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_15sdp"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Click me"
+        />
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Next activity"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
